@@ -14,5 +14,5 @@ authors:
   - Liang Zheng
 
 links:
-  Paper: https://arxiv.org/abs/2403.16576
+  Paper: https://link.springer.com/article/10.1007/s11633-022-1380-x
 ---

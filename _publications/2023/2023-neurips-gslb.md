@@ -22,5 +22,5 @@ authors:
 - Jeffrey Xu Yu
 
 links:
-  Paper: https://arxiv.org/abs/2403.16576
+  Paper: https://arxiv.org/abs/2310.05174
 ---
