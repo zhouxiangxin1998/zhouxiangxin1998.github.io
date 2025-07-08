@@ -26,7 +26,7 @@ short_bio: >-
     advisded by <a href="https://scholar.google.com/citations?user=8kzzUboAAAAJ" target="_blank">Liang Wang</a>.
   </p>
   <p>
-    Previously, I received my B.S. degree from Tsinghua University in 2021.
+    Previously, I received my B.Eng. degree from Tsinghua University in 2021.
   <p>
     My research interests include LLM reasoning and AI for Drug Discovery (AIDD).
   </p>
@@ -46,7 +46,7 @@ education:
   date: Sep. 2021 - present
 - name: Tsinghua University
   logo: /assets/images/badges/THU_logo.png
-  position: B.S. in Electronic Engineering
+  position: B.Eng. in Electronic Engineering
   date: Sep. 2016 - Jul. 2021
 
 experience:
