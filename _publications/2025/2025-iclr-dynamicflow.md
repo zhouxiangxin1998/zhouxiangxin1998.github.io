@@ -6,7 +6,7 @@ pub:            "International Conference on Learning Representations (ICLR)"
 pub_date:       "2025"
 abstract: >-
   DynamicFlow is a full-atom (stochastic) flow model that learns to transform apo pockets and noisy ligands into holo pockets and corresponding 3D ligand molecules.
-cover:          /assets/images/covers/cover2025_iclr_dynamicflow.png
+cover:          /assets/images/covers/cover2025_iclr_dynamicflow.gif
 authors:
 - Xiangxin Zhou*
 - Yi Xiao*
