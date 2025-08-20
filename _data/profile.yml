@@ -50,10 +50,14 @@ education:
   date: Sep. 2016 - Jul. 2021
 
 experience:
+- name: Xiaohongshu Hi Lab
+  logo: /assets/images/badges/xiaohongshu_logo.png
+  position: RedStar Intern
+  date: Aug. 2025 - Present
 - name: ByteDance Seed
   logo: /assets/images/badges/ByteDance_logo.png
   position: Research Intern
-  date: May. 2025 - present
+  date: May. 2025 - Jul. 2025
 - name: ByteDance AI Lab
   logo: /assets/images/badges/ByteDance_logo.png
   position: Research Intern
