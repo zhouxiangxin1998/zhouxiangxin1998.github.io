@@ -1,5 +1,5 @@
 ---
-title:          "Reinforcing General Reasoning without Verifiers"
+title:          "Reinforcing General Reasoning Without Verifiers"
 date:           2025-09-05 00:01:00 +0800
 selected:       true
 # pub:            "International Conference on Machine Learning (ICML)"
