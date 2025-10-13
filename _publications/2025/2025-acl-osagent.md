@@ -1,7 +1,7 @@
 ---
 title:          "OS Agents: A Survey on MLLM-based Agents for Computer, Phone and Browser Use"
 date:           2025-07-07 00:01:00 +0800
-selected:       false
+selected:       true
 pub:            "Annual Meeting of the Association for Computational Linguistics (ACL)"
 pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Oral</span>'
 pub_date:       "2025"
