@@ -28,7 +28,10 @@ short_bio: >-
   <p>
     Previously, I received my B.Eng. degree from Tsinghua University in 2021.
   <p>
-    My research interests include LLM reasoning and AI for Drug Discovery (AIDD).
+    My research focuses on reinforcement learning for enhancing large language models (LLMs), improving their reasoning abilities and making their responses more accurate, reliable, trustworthy, and interpretable.
+    I also study long-term memory for LLMs, aiming to enable LLMs to personalize their behavior through continual interactions with users.
+  </p>
+    In addition, I work on AI for Drug Discovery (AIDD), developing advanced generative models and algorithms for designing small molecules and proteins.
   </p>
 
 portrait_url: /assets/images/photos/portrait.jpg
