@@ -1,7 +1,7 @@
 ---
 title:          "Decomposed Direct Preference Optimization for Structure-Based Drug Design"
 date:           2025-08-05 00:01:00 +0800
-selected:       true
+selected:       false
 pub:            "Transactions on Machine Learning Research (TMLR)"
 # pub_post:       'Preprint.'
 pub_date:       "2025"
