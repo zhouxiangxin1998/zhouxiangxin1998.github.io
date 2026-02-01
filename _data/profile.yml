@@ -53,10 +53,14 @@ education:
   date: Sep. 2016 - Jul. 2021
 
 experience:
+- name: Sea AI Lab
+  logo: /assets/images/badges/Sea_logo.png
+  position: Associate Member
+  date: Jan. 2026 - Present
 - name: Xiaohongshu Hi Lab
   logo: /assets/images/badges/xiaohongshu_logo.png
   position: RedStar Intern
-  date: Aug. 2025 - Present
+  date: Aug. 2025 - Jan. 2026
 - name: Sea AI Lab
   logo: /assets/images/badges/Sea_logo.png
   position: Associate Member
