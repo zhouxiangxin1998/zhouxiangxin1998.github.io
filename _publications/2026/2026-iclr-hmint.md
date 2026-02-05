@@ -6,7 +6,7 @@ pub:            "International Conference on Learning Representations (ICLR)"
 pub_date:       "2026"
 abstract: >-
   Aiming at accurate molecular representations, we propose: (i) OverlapBPE tokenization: a novel data-driven molecule tokenization that allows overlapping fragments and reflects the inherently fuzzy boundaries of small-molecule substructures; (ii) h-MINT model: a hierarchical molecular interaction network capable of jointly modeling drug–target interactions at both atom and fragment levels. Our method improves binding affinity prediction on PDBBind and LBA, enhances virtual screening on DUD-E and LIT-PCBA, and achieves the best overall HTS performance on PubChem assays.
-cover:          /assets/images/covers/cover2026_iclr_verifree.png
+cover:          /assets/images/covers/cover2026_iclr_hmint.png
 authors:
 - Yanru Qu*
 - Yijie Zhang*
