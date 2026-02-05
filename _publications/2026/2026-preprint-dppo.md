@@ -6,7 +6,7 @@ selected:       true
 pub_post:       'Preprint.'
 pub_date:       "2026"
 abstract: >-
-  We argue that the core ratio clipping mechanism in PPO is structurally ill-suited for the large vocabularies inherent to LLMs. PPO constrains policy updates based on the probability ratio of sampled tokens, which serves as a noisy single-sample Monte Carlo estimate of the true policy divergence. This motivate us to propose Divergence Proximal Policy Optimization (DPPO). Extensive experiments show its superior training stability and efficiency, offering a more robust foundation for LLM RL.
+  The core ratio clipping mechanism in PPO is structurally ill-suited for the large vocabularies inherent to LLMs. PPO constrains policy updates based on the probability ratio of sampled tokens, which serves as a noisy single-sample Monte Carlo estimate of the true policy divergence. This motivate us to propose Divergence Proximal Policy Optimization (DPPO). Extensive experiments show its superior training stability and efficiency, offering a more robust foundation for LLM RL.
 cover:          /assets/images/covers/cover2026_preprint_dppo.png
 authors:
 - Penghui Qi*
