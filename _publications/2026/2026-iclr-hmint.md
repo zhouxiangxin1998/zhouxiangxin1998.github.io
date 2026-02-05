@@ -1,7 +1,7 @@
 ---
 title:          "h-MINT: Modeling Pocket-Ligand Binding with Hierarchical Molecular Interaction Network"
 date:           2026-01-27 00:00:59 +0800
-selected:       true
+selected:       false
 pub:            "International Conference on Learning Representations (ICLR)"
 pub_date:       "2026"
 abstract: >-
