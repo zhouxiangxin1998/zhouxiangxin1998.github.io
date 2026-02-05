@@ -6,7 +6,7 @@ pub:            "International Conference on Learning Representations (ICLR)"
 pub_date:       "2026"
 abstract: >-
   We introduce a variational reasoning framework for language models that treats thinking traces as latent variables and optimizes them through variational inference. Starting from the evidence lower bound (ELBO), we extend it to a multi-trace objective for tighter bounds and propose a forward-KL formulation that stabilizes the training of the variational posterior. This framework provides a principled probabilistic perspective that unifies variational inference with RL-style methods and yields stable objectives for improving the reasoning ability of language models.
-cover:          /assets/images/covers/cover2025_preprint_variational.png
+cover:          /assets/images/covers/cover2026_iclr_variational.png
 authors:
 - Xiangxin Zhou*
 - Zichen Liu

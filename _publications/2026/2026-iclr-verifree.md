@@ -6,7 +6,7 @@ pub:            "International Conference on Learning Representations (ICLR)"
 pub_date:       "2026"
 abstract: >-
   VeriFree is a verifier-free method that bypasses answer verification and instead uses RL to directly maximize the probability of generating the reference answer.
-cover:          /assets/images/covers/cover2025_preprint_verifree.png
+cover:          /assets/images/covers/cover2026_iclr_verifree.png
 authors:
 - Xiangxin Zhou*
 - Zichen Liu*
