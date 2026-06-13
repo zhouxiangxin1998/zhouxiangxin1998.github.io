@@ -1,0 +1,111 @@
+---
+import Base from '../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+import { profile } from '../data/profile';
+
+const allPubs = await getCollection('publications');
+const sortedPubs = allPubs.sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+
+// Group by year
+const pubsByYear: Record<string, typeof sortedPubs> = {};
+for (const pub of sortedPubs) {
+  const year = pub.data.pub_date;
+  if (!pubsByYear[year]) pubsByYear[year] = [];
+  pubsByYear[year].push(pub);
+}
+const years = Object.keys(pubsByYear).sort((a, b) => Number(b) - Number(a));
+
+const selectedCount = sortedPubs.filter(p => p.data.selected).length;
+const totalCount = sortedPubs.length;
+
+function highlightAuthor(author: string): string {
+  const clean = author.replace(/[*#†]/g, '');
+  let suffix = '';
+  if (author.includes('*')) suffix += '<sup>*</sup>';
+  if (author.includes('†')) suffix += '<sup>†</sup>';
+  if (author.includes('#')) suffix += '<sup>#</sup>';
+  if (clean.includes('Xiangxin Zhou')) {
+    return `<span class="self">${clean}${suffix}</span>`;
+  }
+  return `${clean}${suffix}`;
+}
+
+---
+<Base title="Xiangxin Zhou">
+  <nav class="nav">
+    <a href="#" class="nav-name">Xiangxin Zhou</a>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#publications">Publications</a>
+      <button class="theme-toggle" aria-label="Toggle theme">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="5"/>
+          <line x1="12" y1="1" x2="12" y2="3"/>
+          <line x1="12" y1="21" x2="12" y2="23"/>
+          <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+          <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+          <line x1="1" y1="12" x2="3" y2="12"/>
+          <line x1="21" y1="12" x2="23" y2="12"/>
+          <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+          <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+        </svg>
+      </button>
+    </div>
+  </nav>
+
+  <main class="container">
+    <section id="about" class="hero-animate">
+      <h1 class="hero-name">{profile.name}</h1>
+      <div class="hero-links">
+        <a href={`mailto:${profile.email}`}>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+          Email
+        </a>
+        <a href={profile.scholar} target="_blank">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/></svg>
+          Scholar
+        </a>
+        <a href={profile.github} target="_blank">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+          GitHub
+        </a>
+        <a href={profile.twitter} target="_blank">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          Twitter
+        </a>
+      </div>
+      <p class="hero-bio" set:html={profile.bio}></p>
+    </section>
+
+    <hr class="section-divider">
+
+    <section id="publications" class="animate-in">
+      <h2 class="section-title">Publications</h2>
+      <div class="pub-legend">* Equal Contribution &nbsp; † Project Lead &nbsp; # Corresponding Author</div>
+      <div class="pub-filter">
+        <button class="pub-filter-btn active" data-filter="selected">Selected ({selectedCount})</button>
+        <button class="pub-filter-btn" data-filter="all">All ({totalCount})</button>
+      </div>
+      {sortedPubs.map(pub => (
+        <div class="pub-item" data-pub-selected={pub.data.selected.toString()} style={pub.data.selected ? '' : 'display:none'}>
+          <div class="pub-title">{pub.data.title}</div>
+          <div class="pub-authors" set:html={pub.data.authors.map(a => highlightAuthor(a)).join(', ')}></div>
+          <div class="pub-venue" set:html={[pub.data.pub_pre, pub.data.pub, pub.data.pub_post, pub.data.pub_date].filter(Boolean).join(', ') + (pub.data.pub_last ? (pub.data.pub_last.startsWith('(') ? ' ' : '<br>') + pub.data.pub_last : '')}></div>
+          {pub.data.links && (
+            <div class="pub-links">
+              {Object.entries(pub.data.links).map(([name, link]) => {
+                const url = typeof link === 'string' ? link : link.url;
+                return <a href={url} target="_blank">[{name}]</a>;
+              })}
+            </div>
+          )}
+        </div>
+      ))}
+    </section>
+
+
+    <footer class="footer">
+      Last updated June 2026
+    </footer>
+  </main>
+</Base>
