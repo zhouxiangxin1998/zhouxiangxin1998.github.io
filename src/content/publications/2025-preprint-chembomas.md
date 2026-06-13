@@ -7,17 +7,25 @@ pub_date:       "2025"
 abstract: >-
   Accelerated Bayesian optimization in chemistry with LLM-enhanced multi-agent system.
 authors:
-- Dianlong Han
-- Zhihao Ai
-- Peng Cai
-- Songlin Lu
-- Jiarui Chen
-- Zicong Ye
-- Shixuan Sun
-- Bo Gao
-- Lingyun Ge
-- Wei Wang
+- Dong Han
+- Zhehong Ai
+- Pengxiang Cai
+- Shanya Lu
+- Jianpeng Chen
+- Zihao Ye
+- Shuzhou Sun
+- Ben Gao
+- Lingli Ge
+- Weida Wang
 - Xiangxin Zhou
+- Xihui Liu
+- Mao Su
+- Wanli Ouyang
+- Lei Bai
+- Dongzhan Zhou
+- Tao Xu
+- Yuqiang Li
+- Shufei Zhang
 
 links:
   pdf: https://arxiv.org/pdf/2509.08736
