@@ -13,7 +13,7 @@ authors:
 - Mingqian Li
 - Qiang Zhang
 - Hongyang Chen
-- Xin Lin
+- Xuemin Lin
 
 links:
   pdf: https://arxiv.org/pdf/2410.20711

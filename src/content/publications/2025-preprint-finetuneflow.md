@@ -7,9 +7,9 @@ pub_date:       "2025"
 abstract: >-
   Fine-tuning flow matching generative models with intermediate feedback.
 authors:
-- Jiachun Fan
+- Jiajun Fan
 - Chaoran Cheng
-- Shuai Shen
+- Shuaike Shen
 - Xiangxin Zhou
 - Ge Liu
 
