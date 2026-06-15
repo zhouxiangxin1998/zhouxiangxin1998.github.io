@@ -2,8 +2,7 @@
 title:          "Defeating the Training-Inference Mismatch via FP16"
 date:           2025-10-30 00:01:00 +0800
 selected:       true
-# pub:            "International Conference on Machine Learning (<b>ICML</b>)"
-pub_post:       'Preprint.'
+pub:            "arXiv Preprint"
 pub_date:       "2025"
 abstract: >-
   We demonstrate that simply reverting to FP16 effectively eliminates the numerical mismatch between the training and inference policies in RL for LLMs. Our results suggest that using FP16 uniformly yields more stable optimization, faster convergence, and stronger performance across diverse tasks, algorithms and frameworks.
