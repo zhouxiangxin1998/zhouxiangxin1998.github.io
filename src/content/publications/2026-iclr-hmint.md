@@ -16,7 +16,7 @@ authors:
 - Chaoran Cheng
 - Mathieu Blanchette
 - Jiaxuan You
-- Ge Liu
+- Ge Liu#
 
 links:
   pdf: https://openreview.net/forum?id=ajywV0kKXk

@@ -15,9 +15,9 @@ authors:
   - Wentao Zhang
   - Xiawu Zheng
   - Jie Chen
-  - Yu Wang
+  - Yu Wang#
   - Bin Cui
-  - Wenming Yang
+  - Wenming Yang#
 
 links:
   pdf: https://openreview.net/forum?id=qH9nrMNTIW

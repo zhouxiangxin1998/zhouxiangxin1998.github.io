@@ -10,9 +10,9 @@ authors:
 - Bowen Ping*
 - Xiangxin Zhou*†
 - Penghui Qi
-- Minnan Luo
+- Minnan Luo#
 - Liefeng Bo
-- Tianyu Pang
+- Tianyu Pang#
 
 links:
   pdf: https://arxiv.org/pdf/2606.11025

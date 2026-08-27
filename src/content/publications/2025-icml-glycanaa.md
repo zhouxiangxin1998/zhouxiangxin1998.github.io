@@ -13,7 +13,7 @@ authors:
 - Keming Wu
 - Xiangxin Zhou
 - Bin Cui
-- Wentao Zhang
+- Wentao Zhang#
 
 links:
   pdf: https://arxiv.org/pdf/2506.01376

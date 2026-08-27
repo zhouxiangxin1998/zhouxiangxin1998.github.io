@@ -9,7 +9,7 @@ abstract: >-
   We propose the Riemannian Consistency Model (RCM), which, for the first time, enables few-step consistency modeling while respecting the intrinsic manifold constraint imposed by the Riemannian geometry. Leveraging the covariant derivative and exponential-map-based parameterization, we derive the closed-form solutions for both discrete- and continuous-time training objectives for RCM.
 cover:          /assets/images/covers/cover2025_neurips_rcm.png
 authors:
-- Chaoran Cheng*
+- Chaoran Cheng*#
 - Yusong Wang*
 - Yuxin Chen
 - Xiangxin Zhou

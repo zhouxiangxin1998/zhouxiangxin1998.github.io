@@ -9,7 +9,7 @@ abstract: >-
   A comprehensive survey on (M)LLM-based Agents using computers, mobile phones and web browsers by operating within the environments and interfaces (e.g., Graphical User Interface (GUI) and Command Line Interface (CLI)) provided by operating systems (OS) to automate tasks.
 cover:          /assets/images/covers/cover2025_acl_osagent.png
 authors:
-- Xueyu Hu
+- Xueyu Hu†
 - Tao Xiong
 - Biao Yi
 - Zishu Wei
@@ -21,9 +21,10 @@ authors:
 - Ziyu Zhao
 - Yuhuai Li
 - Shengze Xu
-- Shawn Wang
+- Shenzhi Wang
 - Xinchen Xu
 - Shuofei Qiao
+- Zhaokai Wang
 - Kun Kuang
 - Tieyong Zeng
 - Liang Wang
@@ -35,7 +36,7 @@ authors:
 - Zhou Zhao
 - Hongxia Yang
 - Fan Wu
-- Shengyu Zhang
+- Shengyu Zhang#
 - Fei Wu
 
 links:

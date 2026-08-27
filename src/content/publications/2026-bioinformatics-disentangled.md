@@ -10,14 +10,14 @@ authors:
 - Zhilin Huang
 - Ling Yang
 - Chujun Qin
-- Yijing Xing
-- Haoran Yu
+- Yifei Xing
+- Hongyang Yu
 - Xiangxin Zhou
-- Bao Zheng
+- Bing Zheng
 - Yu Wang
-- Xiang Gao
-- Wenming Yang
+- Xin Gao
+- Wenming Yang#
 
 links:
-  pdf: https://academic.oup.com/bioinformatics/article/42/6/btag165/8120651
+  pdf: https://doi.org/10.1093/bioinformatics/btag165
 ---

@@ -15,8 +15,8 @@ authors:
  - Yu Bao
  - Xiawu Zheng
  - Yuwei Yang
- - Yu Wang
- - Wenming Yang
+ - Yu Wang#
+ - Wenming Yang#
 
 links:
   pdf: https://arxiv.org/pdf/2402.18583

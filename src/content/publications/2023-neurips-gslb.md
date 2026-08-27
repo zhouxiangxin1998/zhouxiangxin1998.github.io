@@ -16,10 +16,10 @@ authors:
 - Dingshuo Chen
 - Yingtao Luo
 - Xiangxin Zhou
-- Qiang Liu
+- Qiang Liu#
 - Shu Wu
 - Liang Wang
-- Jeffrey Xu Yu
+- Jeffrey Xu Yu#
 
 links:
   pdf: https://arxiv.org/pdf/2310.05174

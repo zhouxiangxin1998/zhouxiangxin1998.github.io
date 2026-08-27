@@ -8,7 +8,7 @@ export const profile = {
   github: "https://github.com/zhouxiangxin1998",
   twitter: "https://x.com/NickZhou523786",
   portrait: "/images/portrait.jpg",
-  bio: `I am a fifth-year Ph.D. student at the Institute of Automation, Chinese Academy of Sciences (CASIA) and University of Chinese Academy of Sciences (UCAS), advised by <a href="https://scholar.google.com/citations?user=8kzzUboAAAAJ" target="_blank">Liang Wang</a>.<br><br>I work on LLM RL and agents — the engine (principled algorithms that scale), the loop (intelligence that improves itself), and the interface (agents that act on the world).<br><br>I received my B.Eng. from Tsinghua University in 2021. I have interned at Tencent Hunyuan, Sea AI Lab, Xiaohongshu Hi Lab, ByteDance Seed, ByteDance AI Lab, and ByteDance AML.`,
+  bio: `I work on LLM RL at Tencent HY.<br><br>My research focuses on LLM RL and agents — the engine (principled algorithms that scale), the loop (intelligence that improves itself), and the interface (agents that act on the world).<br><br>I received my B.E. in Tsinghua University in 2021, and my Ph.D. in Institute of Automation, Chinese Academy of Sciences (CASIA) and University of Chinese Academy of Sciences (UCAS) in 2026, under the supervision of <a href="https://scholar.google.com/citations?user=8kzzUboAAAAJ" target="_blank">Liang Wang</a>.<br><br>I have interned at Tencent Hunyuan LLM, Tencent Hunyuan Multimodal, Sea AI Lab, Xiaohongshu Hi Lab, ByteDance Seed, ByteDance AI Lab, and ByteDance AML.`,
   education: [
     {
       institution: "University of Chinese Academy of Sciences",

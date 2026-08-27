@@ -11,8 +11,8 @@ cover:          /assets/images/covers/cover2025_tmlr_decompdpo.png
 authors:
 - Xiwei Cheng*
 - Xiangxin Zhou*
-- Yuwei Yang
 - Yu Bao
+- Yuwei Yang
 - Quanquan Gu#
 
 links:

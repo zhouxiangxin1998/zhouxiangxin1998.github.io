@@ -16,8 +16,8 @@ authors:
 - Xiawu Zheng
 - Zikun Zhou
 - Wentao Zhang
-- Yu Wang
-- Wenming Yang
+- Yu Wang#
+- Wenming Yang#
 
 links:
   pdf: https://openreview.net/forum?id=eejhD9FCP3

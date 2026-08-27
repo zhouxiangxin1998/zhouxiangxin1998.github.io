@@ -8,7 +8,7 @@ abstract: >-
   Reinforcing few-step generators via reward-tilted distribution matching.
 authors:
 - Yushi Huang*
-- Xiangxin Zhou*
+- Xiangxin Zhou*†
 - Ruoyu Wang*
 - Chi Zhang
 - Jun Zhang

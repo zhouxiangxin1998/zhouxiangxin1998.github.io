@@ -17,7 +17,7 @@ authors:
 - Yan Wang
 - Xinyou Wang
 - Xiangxin Zhou
-- Quanquan Gu
+- Quanquan Gu#
 
 links:
   pdf: https://arxiv.org/pdf/2409.06744

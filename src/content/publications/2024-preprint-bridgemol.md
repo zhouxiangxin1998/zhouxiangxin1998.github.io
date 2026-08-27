@@ -7,9 +7,9 @@ pub_date:       "2024"
 abstract: >-
   A survey on multimodal frameworks for molecule understanding and generation.
 authors:
-- Yi Xiao
-- Xiangxin Zhou
-- Qiang Liu
+- Yi Xiao*
+- Xiangxin Zhou*
+- Qiang Liu#
 - Liang Wang
 
 links:
